@@ -318,7 +318,7 @@ textarea:focus {
 	font-size: 14px !important;
 }
 
-.helakuru-typing-type-icon i {
+.helacon-typing-type-icon i {
 	border-radius: 10px;
 	width: 30px;
 	background-color: var(--base-color);
@@ -328,13 +328,13 @@ textarea:focus {
 	line-height: 30px;
 }
 
-.helakuru-typing-body .nav-tabs .nav-link {
+.helacon-typing-body .nav-tabs .nav-link {
 	border-radius: 10px 10px 0px 0px !important;
 	padding: 15px;
 	/*margin-left: 15px;*/
 }
 
-.helakuru-typing-dropdown {
+.helacon-typing-dropdown {
 	padding: 0 15px;
 }
 
@@ -360,11 +360,11 @@ textarea:focus {
 	color: #fff;
 }
 
-.helakuru-typing-body-inner .tab-content {
+.helacon-typing-body-inner .tab-content {
 	border: 2px solid var(--base-color) !important;
 }
 
-.helakuru-typing-body-inner .nav-tabs {
+.helacon-typing-body-inner .nav-tabs {
 	border-color: var(--base-color);
 	/* border-width: 2px; */
 	border: none !important;
@@ -382,26 +382,26 @@ textarea:focus {
 	font-size: 14px !important;
 }
 
-.helakuru-typing-body-inner {
+.helacon-typing-body-inner {
 	/*border: 2px solid #F5F7FA;*/
 	border-radius: 15px;
 	/*padding: 15px 0;*/
 }
 
-.helakuru-typing-body .nav-tabs .nav-link.active {
+.helacon-typing-body .nav-tabs .nav-link.active {
 	background: var(--base-color);
 	color: #fff;
 	border: 2px solid var(--base-color) !important;
 	border-bottom: none !important;
 }
 
-.helakuru-typing-body-inner .form-control {
+.helacon-typing-body-inner .form-control {
 	/* border: 2px solid #0164bd !important; */
 	font-size: 20px;
 	padding: 25px;
 }
 
-.helakuru-typing-inner {
+.helacon-typing-inner {
 	margin-top: -45px;
 }
 
@@ -416,7 +416,7 @@ a.font-download-btn i {
 	border-radius: 10px;
 }
 
-.margin-top-remove .helakuru-typing-inner {
+.margin-top-remove .helacon-typing-inner {
 	margin-top: 0 !important;
 }
 

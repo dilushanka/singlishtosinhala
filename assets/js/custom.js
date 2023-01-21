@@ -115,7 +115,7 @@ function get_alredy_subscribe_for_topic(topic) {
 
 function set_typing_format(type, text) {
 	$('#keyboard').val(type)
-	$('#helakuru-typing-type').html(text)
+	$('#helacon-typing-type').html(text)
 }
 
 function getNewsById(id, type, lang, l_type) {
@@ -305,11 +305,11 @@ function set_topics_from_server(topics) {
 function change_font(font_id, class_name, name, type) {
 	if (type === '0') {
 		$('#results').removeClass().addClass("form-control " + class_name);
-		$('#helakuru-typing-type-un').html(name)
+		$('#helacon-typing-type-un').html(name)
 		$('#unicode_font_download').show()
 	} else {
 		$('#results_legacy').removeClass().addClass("form-control " + class_name);
-		$('#helakuru-typing-type-leg').html(name)
+		$('#helacon-typing-type-leg').html(name)
 		$('#legacy_font_download').show()
 	}
 	$('#font_id_download').val(font_id)
