@@ -1135,3 +1135,122 @@ textarea.noResize {
 	margin-top: 30px;
 	line-height: 32px;
 }
+
+
+
+
+
+/* Footer */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+  max-width: 960px;
+  margin: auto;
+}
+.card {
+  background-color: rgb(240, 240, 240);
+  border-radius: 0.5rem;
+  padding: 70px 80px;
+  margin-bottom: 80px;
+}
+h1,
+h3,
+p {
+  color: #000000;
+}
+h3 {
+  padding-left: 50px;
+  border-left: 3px solid blue;
+}
+.date {
+  font-size: 14px;
+  color: #000000;
+}
+footer {
+  /*Remove "fixed, left, and bottom" if you want it to scroll naturally to the bottom*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /*-------*/
+  width: 100%;
+  background-color: #f8f83f;
+  cursor: default;
+}
+.inside__footer {
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  text-align: left;
+  color: #000000;
+  font-size: 16px;
+  order: 1;
+  margin-bottom: 0;
+}
+.social {
+  order: 2;
+  margin-bottom: 0;
+}
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  fill: darkgray;
+  transition: fill 0.15s, filter 0.15s;
+}
+.icon:first-child {
+  margin-right: 0;
+}
+.facebook:hover {
+  fill: #3b5998;
+}
+.instagram:hover {
+  fill: #dd2a7b;
+}
+.twitter:hover {
+  fill: #1da1f2;
+}
+.icon:active {
+  filter: brightness(70%);
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 30px;
+    margin-bottom: 106px;
+  }
+  .inside__footer {
+    /*use flex-direction, because if you change it to Block it'll never allow Order to work*/
+    flex-direction: column;
+  }
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+    order: 2;
+    margin-bottom: 4px;
+  }
+  .social {
+    order: 1;
+    margin-bottom: 4px;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: fill 0s, filter 0s;
+  }
+}
