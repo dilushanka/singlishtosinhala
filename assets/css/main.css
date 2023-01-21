@@ -1202,33 +1202,7 @@ footer {
   order: 1;
   margin-bottom: 0;
 }
-.social {
-  order: 2;
-  margin-bottom: 0;
-}
-.icon {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-left: 20px;
-  fill: darkgray;
-  transition: fill 0.15s, filter 0.15s;
-}
-.icon:first-child {
-  margin-right: 0;
-}
-.facebook:hover {
-  fill: #3b5998;
-}
-.instagram:hover {
-  fill: #dd2a7b;
-}
-.twitter:hover {
-  fill: #1da1f2;
-}
-.icon:active {
-  filter: brightness(70%);
-}
+
 @media only screen and (max-width: 600px) {
   .card {
     padding: 30px;
@@ -1244,13 +1218,5 @@ footer {
     order: 2;
     margin-bottom: 4px;
   }
-  .social {
-    order: 1;
-    margin-bottom: 4px;
-  }
-  .icon {
-    width: 24px;
-    height: 24px;
-    transition: fill 0s, filter 0s;
-  }
+  
 }
