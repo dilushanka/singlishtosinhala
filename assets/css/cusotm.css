@@ -159,51 +159,9 @@ textarea:focus {
 	font-size: 12px;
 }
 
-.preloader-wrapper {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #ffffff;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	z-index: 999999999;
-	top: 0;
-	left: 0;
-}
 
-.preloader {
-	display: flex;
-}
 
-.preloader > div {
-	width: 2vw;
-	height: 2vw;
-	border-radius: 100%;
-	margin: 1vw;
-	background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-	animation: bounce 1.5s 0.5s linear infinite;
-}
 
-.preloader .yellow {
-	background-color: #F50100;
-}
-
-.preloader .red {
-	background-color: #E36708;
-	animation-delay: 0.1s;
-}
-
-.preloader .blue {
-	background-color: #67BE00;
-	animation-delay: 0.2s;
-}
-
-.preloader .violet {
-	background-color: #E2E202;
-	animation-delay: 0.3s;
-}
 
 @keyframes bounce {
 	0%,
