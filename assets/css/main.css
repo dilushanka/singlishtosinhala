@@ -346,6 +346,7 @@ textarea:focus {
 .helacon-typing-body-inner {
 	/*border: 2px solid #F5F7FA;*/
 	border-radius: 15px;
+	
 	/*padding: 15px 0;*/
 }
 
@@ -363,7 +364,7 @@ textarea:focus {
 }
 
 .helacon-typing-inner {
-	margin-top: -45px;
+	margin-top: -21px;
 }
 
 a.font-download-btn i {

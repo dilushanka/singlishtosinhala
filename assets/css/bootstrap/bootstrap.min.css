@@ -504,6 +504,17 @@ pre code {
     .container {
         max-width: 960px;
     }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin: auto;
+    
+       
+    }
 }
 @media (min-width: 1200px) {
     .container {
