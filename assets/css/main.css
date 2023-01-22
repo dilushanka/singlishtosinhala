@@ -143,7 +143,7 @@ a:hover {
 }
 
 .rounded-lg-30 {
-	border-radius: 30px !important;
+	border-radius: 5px !important;
 }
 
 .rounded-lg-15 {
@@ -1199,3 +1199,5 @@ footer {
   }
   
 }
+
+

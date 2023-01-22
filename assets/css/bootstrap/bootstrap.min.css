@@ -524,6 +524,9 @@ pre code {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 .no-gutters {
     margin-right: 0;
@@ -6046,7 +6049,7 @@ button.bg-dark:hover {
     border-bottom-left-radius: 0.25rem !important;
 }
 .rounded-lg {
-    border-radius: 0.3rem !important;
+    border-radius: 5px !important;
 }
 .rounded-circle {
     border-radius: 50% !important;
@@ -7348,7 +7351,8 @@ button.bg-dark:hover {
     padding-left: 1rem !important;
 }
 .p-4 {
-    padding: 1.5rem !important;
+    padding: 50px !important;
+
 }
 .pt-4,
 .py-4 {
@@ -9145,3 +9149,4 @@ a.text-dark:hover {
     }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
