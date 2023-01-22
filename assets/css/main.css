@@ -1142,36 +1142,15 @@ textarea.noResize {
 
 /* Footer */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  background-color: #fff;
-  padding: 20px;
-  min-height: 100vh;
-  max-width: 960px;
-  margin: auto;
-}
+
+
 .card {
   background-color: rgb(240, 240, 240);
   border-radius: 0.5rem;
   padding: 70px 80px;
   margin-bottom: 80px;
 }
-h1,
-h3,
-p {
-  color: #000000;
-}
-h3 {
-  padding-left: 50px;
-  border-left: 3px solid blue;
-}
+
 .date {
   font-size: 14px;
   color: #000000;
