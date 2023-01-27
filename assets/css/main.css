@@ -105,3 +105,7 @@ body {
         width: 125%;
     }
 }
+.conyainer .card .card-body {
+    color: #7d96aa;
+    background-color: #34495e;
+}
