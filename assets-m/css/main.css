@@ -1,0 +1,99 @@
+html { 
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#141e30, #243b55);
+}
+.row {
+    position: relative;
+    top: -8px;
+    left:10%;
+    
+    
+}
+.col-lg-8 .des-typing-body {
+    position: relative;
+    bottom: -95px;
+    
+}
+.des-typing-wrapper .des-typing-header .des-typing-inner {
+    position: relative;
+    bottom: -115px;
+}
+.box-title {
+    position: absolute;
+    top: -101px;
+    left: 30%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    
+}
+.des-typing-body {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.des-typing-wrapper .des-typing-header .box-title {
+    color: #efcb70;
+    top: -10px !important;
+}
+
+.des-typing-dropdown {
+  all: unset;
+  background-color: dodgerblue;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-item {
+    color: rgb(0, 0, 0);
+}
+#nav-unicode-tab {
+    background-color: #4ae905;
+}
+.nav-link.active {
+    background-color: #243b55;
+}
+
+#results{
+    width: 280%;
+}
+
+
+#mbox {
+    position: relative;
+    left: 70px;
+}
+
+@media (max-width:576px) {
+    #mbox {
+        left:17px;
+      
+    }
+}
+
+#ti {
+    color: #eed920;
+    position: relative;
+    bottom: -19px;
+}
