@@ -3,32 +3,39 @@
 
 @font-face {
 	font-family: ganganee;
-	src: url("../fonts/un-ganganee.otf");
+	src: url("../fonts/1/un-ganganee.woff") format('woff');
+	src: url("../fonts/1/un-ganganee.eot") format('eot');
 }
 
 @font-face {
 	font-family: emanee;
-	src: url("../fonts/un-emanee-no-eng.ttf");
+	src: url("../fonts/1/un-emanee-no-eng.woff") format('woff');
+	src: url("../fonts/1/un-emanee-no-eng.eot") format('eot');
 }
 
 @font-face {
 	font-family: bindumathi;
-	src: url("../fonts/bindu_sinhala_only.ttf");
+	src: url("../fonts/1/bindu-sinhala-only.woff") format('woff');
+	src: url("../fonts/1/bindu-sinhala-only.eot") format('eot');
 }
 
 @font-face {
 	font-family: Ubuntu-R;
 	src: url("../fonts/Ubuntu-Regular.ttf");
+	src: url("../fonts/1/Ubuntu-Regular.woff") format('woff');
+	src: url("../fonts/1/Ubuntu-Regular.eot") format('eot');
 }
 
 @font-face {
 	font-family: malithi;
-	src: url("../fonts/FM-Malithi.TTF");
+	src: url("../fonts/1/FM-Malithi.woff") format('woff');
+	src: url("../fonts/1/FM-Malithi.eot") format('eot');
 }
 
 @font-face {
 	font-family: UN-Abhaya;
-	src: url("../fonts/un-abhaya.ttf");
+	src: url("../fonts/1/un-abhaya.woff") format('woff');
+	src: url("../fonts/1/un-abhaya.eot") format('eot');
 }
 
 :root {

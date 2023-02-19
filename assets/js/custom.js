@@ -65,15 +65,12 @@ var logger = function() {
 	};
 })(jQuery);
 $(document).ready(function() {
-	$('#evoCalendar').evoCalendar({
-		calendarEvents: myEvents
-	});
+	
 	var ui_data = JSON.parse(localStorage.getItem('dashbord_ui_data')) || '';
 	if (ui_data.SIDE_BAR_CLASS) {
 		side_bar.addClass(ui_data.SIDE_BAR_CLASS);
 	}
 	history.replaceState(null, null, ' ');
-	set_alredy_subs();
 	var site_topic = localStorage.getItem('sub_topic');
 	var subscribed_topics = JSON.parse(localStorage.getItem('topics')) || []
 	for (var z = 0; z < subscribed_topics.length; z++) {
@@ -86,7 +83,6 @@ $(document).ready(function() {
 			break;
 		}
 	}
-	notification_window();
 });
 
 
@@ -263,12 +259,7 @@ function remove_topic_array_local(test_topic) {
 	localStorage.setItem('topics', JSON.stringify(current_set));
 }
 
-function set_alredy_subs() {
-	var current_subscribes = JSON.parse(localStorage.getItem('topics')) || [];
-	if (current_subscribes.length <= 0) {
-		get_already_subscriptions()
-	}
-}
+
 
 function set_topics_from_server(topics) {
 	var current_set = [];
