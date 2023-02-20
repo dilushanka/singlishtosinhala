@@ -49,6 +49,7 @@ body {
 .des-typing-wrapper .des-typing-header .box-title {
     color: #efcb70;
     top: -10px !important;
+    width: 50%;
 }
 
 .des-typing-dropdown {
@@ -84,9 +85,17 @@ body {
     #results {
         width: 230%;
     }
+    #results_legacy {
+        font-family: malithi;
+        width: 230%;
+    }
 }
 @media (max-width:730px) {
     #results {
+        width: 200%;
+    }
+    #results_legacy {
+        font-family: malithi;
         width: 200%;
     }
 }
@@ -94,15 +103,27 @@ body {
     #results {
         width: 180%;
     }
+    #results_legacy {
+        font-family: malithi;
+        width: 180%;
+    }
 }
 @media (max-width:560px) {
     #results {
         width: 150%;
     }
+    #results_legacy {
+        font-family: malithi;
+        width: 150%;
+    }
 }
 @media (max-width:430px) {
     #results {
-        width: 125%;
+        width: 120%;
+    }
+    #results_legacy {
+        font-family: malithi;
+        width: 120%;
     }
 }
 .conyainer .card .card-body {
