@@ -21,15 +21,14 @@
 
 @font-face {
 	font-family: Ubuntu-R;
-	src: url("../fonts/Ubuntu-Regular.ttf");
 	src: url("../fonts/1/Ubuntu-Regular.woff") format('woff');
 	src: url("../fonts/1/Ubuntu-Regular.eot") format('eot');
 }
 
 @font-face {
 	font-family: malithi;
-	src: url("../fonts/1/FM-Malithi.woff") format('woff');
-	src: url("../fonts/1/FM-Malithi.eot") format('eot');
+	src: url("../download_fonts/legacy/FM_MALIT.TTF");
+	
 }
 
 @font-face {

@@ -7,36 +7,19 @@
 }
 @font-face {
     font-family: "2_un_emanee";
-    src: url(../download_fonts/unicode/un-emanee.ttf);
+    src: url("../fonts/1/un-emanee-no-eng.woff") format('woff');
+	src: url("../fonts/1/un-emanee-no-eng.eot") format('eot');
 }
 .font_class_2_un_emanee {
     font-family: "2_un_emanee", Ubuntu-R, sans-serif !important;
 }
 @font-face {
     font-family: "3_un_malithi";
-    src: url(../download_fonts/unicode/un-malithi.ttf);
+    src: url("../fonts/1/FM-Malithi.woff") format('woff');
+	src: url("../fonts/1/FM-Malithi.eot") format('eot');
 }
 .font_class_3_un_malithi {
     font-family: "3_un_malithi", Ubuntu-R, sans-serif !important;
 }
-@font-face {
-    font-family: "4_fm_bindu";
-    src: url(../download_fonts/legacy/fm_bindu.html);
-}
-.font_class_4_fm_bindu {
-    font-family: "4_fm_bindu", Ubuntu-R, sans-serif !important;
-}
-@font-face {
-    font-family: "5_fm_emane";
-    src: url(../download_fonts/legacy/fm_emane.html);
-}
-.font_class_5_fm_emane {
-    font-family: "5_fm_emane", Ubuntu-R, sans-serif !important;
-}
-@font-face {
-    font-family: "6_fm_malit";
-    src: url(../download_fonts/legacy/fm_malit.html);
-}
-.font_class_6_fm_malit {
-    font-family: "6_fm_malit", Ubuntu-R, sans-serif !important;
-}
+
+
