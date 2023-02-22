@@ -80,7 +80,7 @@ body {
     width: 280%;
 }
 
-
+/*
 @media (max-width:900px) {
     #results {
         width: 230%;
@@ -125,7 +125,7 @@ body {
         font-family: malithi;
         width: 120%;
     }
-}
+} */
 .conyainer .card .card-body {
     color: #7d96aa;
     background-color: #34495e;
