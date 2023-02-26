@@ -577,31 +577,7 @@ a.font-download-btn i {
 	font-family: bindumathi, Ubuntu-R, sans-serif !important;
 }
 
-.news_text {
-	/* text-align: justify !important; */
-	/* font-size: 12px !important; */
-	white-space: pre-line;
-}
 
-.news_title {
-	/* font-size: 18px !important; */
-	/* text-align: justify !important; */
-	/*margin-bottom: 30px;*/
-	color: #000000;
-}
-
-.single-news-wrapper .news_time {
-	font-size: 16px !important;
-}
-
-/*.news_row_esena{
-	border-radius: 20px;
-}*/
-.news_row_esena:hover {
-	background-color: #e6e6e6;
-	box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.04) !important;
-	border-radius: 10px;
-}
 
 .gradient_animation {
 	height: 5px !important;

@@ -6,22 +6,32 @@ body {
     padding: 0;
     background: linear-gradient(#141e30, #243b55);
 }
-.row {
+.row-d {
     position: relative;
     top: -8px;
-    left:10%;
-    
+    left: 100px;
+    width: 100%; 
+    padding-top: 30px;  
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
+
 .col-lg-8 .des-typing-body {
     position: relative;
     bottom: -95px;
+    margin-right: 200px;
     
 }
+
 .des-typing-wrapper .des-typing-header .des-typing-inner {
     position: relative;
     bottom: -115px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
 }
+
 .box-title {
     position: absolute;
     top: -101px;
@@ -35,6 +45,7 @@ body {
     border-radius: 10px;
     
 }
+
 .des-typing-body {
     width: 100%;
     padding: 10px 0;
@@ -48,8 +59,8 @@ body {
 }
 .des-typing-wrapper .des-typing-header .box-title {
     color: #efcb70;
-    top: -10px !important;
-    width: 50%;
+    top: 31px !important;
+
 }
 
 .des-typing-dropdown {
@@ -76,27 +87,44 @@ body {
     background-color: #243b55;
 }
 
-#results{
-    width: 280%;
+#unicode {
+    width: 50%;
 }
 
-/*
+#results{
+    width: 100%;
+}
+#results_legacy {
+    width: 50%;
+}
+
+
 @media (max-width:900px) {
     #results {
-        width: 230%;
+        width: 100%;
     }
     #results_legacy {
         font-family: malithi;
-        width: 230%;
+        width: 100%;
+    }
+    .row-d {
+        position: relative;
+        top: -8px;
+        left: 100px;
+        width: 100%; 
+        padding-top: 30px;  
+        padding-left: 50px;
+        padding-right: 100px;
+        
     }
 }
 @media (max-width:730px) {
     #results {
-        width: 200%;
+        width: 100%;
     }
     #results_legacy {
         font-family: malithi;
-        width: 200%;
+        width: 100%;
     }
 }
 @media (max-width:630px) {
@@ -119,14 +147,20 @@ body {
 }
 @media (max-width:430px) {
     #results {
-        width: 120%;
+        width: 200%;
     }
     #results_legacy {
         font-family: malithi;
         width: 120%;
     }
-} */
-.conyainer .card .card-body {
-    color: #7d96aa;
-    background-color: #34495e;
-}
+    .row-d {
+        position: relative;
+        top: -8px;
+        left: 100px;
+        width: 100%; 
+        padding-top: 30px;  
+        padding-left: 1px;
+        padding-right: 100px;
+        
+    }
+} 
