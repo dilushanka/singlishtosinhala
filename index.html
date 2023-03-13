@@ -35,13 +35,14 @@ if (screen.width <= 699) {
 <body>
 <!--Header Nav Bar-->
 <link rel="stylesheet" type="text/css" href="./assets/css/nav.css"></style>   
-        <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>Home</a></li>
+    <li><a href='http://'>About</a></li>
+    <li><a href='http://'>Contact Us</a></li>
+  </ul>
+</nav>
 <script src="./assets/js/nav.js"></script>
 <!--End Header Nav Bar-->
 
@@ -52,23 +53,20 @@ if (screen.width <= 699) {
 <br>
 <!--Translater-->
 <div class="row-d">
-
 <div class="main-col-content">
 <div class="des-typing-wrapper">
 <div class="des-typing-inner d-flex justify-content-between  align-items-center">
   <div class="d-flex align-items-center b-3m">
-
+<p id="hint">Change Font here > &nbsp; &nbsp;</p>
 <div class="">
   <div class="custom-dropdown show">
-  <a class="btn  dropdown-toggle des-typing-dropdown big" role="button" id="des-typing-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  සිංහල phonetic
-  </a>
+  <a class="btn  dropdown-toggle des-typing-dropdown big" role="button" id="des-typing-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">සිංහල phonetic</a>
   <div class="dropdown-menu" aria-labelledby="des-typing-type">
   <a onclick="set_typing_format('phonetic','සිංහල phonetic')" class="dropdown-item">සිංහල
   phonetic</a>
   <a onclick="set_typing_format('wijesekara','සිංහල Wijesekara')" class="dropdown-item">සිංහල
   Wijesekara</a>
-  <a onclick="set_typing_format('english','English')" class="dropdown-item" href="#">English</a>
+  <a onclick="set_typing_format('english','English')" class="dropdown-item" >English</a>
   </div>
   </div>
   </div>

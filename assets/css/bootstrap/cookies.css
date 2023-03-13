@@ -3270,6 +3270,7 @@ input[type=submit].btn-block {
 }
 
 .dropdown-item {
+    cursor: pointer;
     display: block;
     width: 100%;
     padding: .25rem 1.5rem;
@@ -3286,7 +3287,7 @@ input[type=submit].btn-block {
 .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background-color: #f8f9fa
+    background-color: #6fe204
 }
 
 .dropdown-item.active,

@@ -8,27 +8,31 @@ body {
 }
 .row-d {
     position: absolute;
-    left: 25%;
+    left: 50%;
+    top: 50%;
     width: 100%; 
-    padding: 40px; 
+    padding: 50px; 
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
 }
 
 .col-lg-8 .des-typing-body {
-    position: relative;
+    position: absolute;
     bottom: -95px;
     margin-right: 200px;
     
 }
 
 .des-typing-wrapper .des-typing-header .des-typing-inner {
-    position: relative;
+    position: absolute;
     bottom: -115px;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.25rem
 }
-
-
 
 .des-typing-body {
     width: 100%;
@@ -62,10 +66,13 @@ body {
 }
 
 .nav-item {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 11, 11);
 }
 #nav-unicode-tab {
     background-color: #4ae905;
+}
+#nav-legacy-tab {
+    background-color: #50504d;
 }
 .nav-link.active {
     background-color: #243b55;
@@ -80,4 +87,22 @@ body {
 }
 #results_legacy {
     width: 50%;
+}
+
+#hint {
+    color: #c5e21e;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    #unicode {
+        width: 100%;
+    }
+    
+    #results{
+        width: 100%;
+    }
+    #results_legacy {
+        width: 100%;
+    }
 }
