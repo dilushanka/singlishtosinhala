@@ -34,27 +34,14 @@ if (screen.width <= 699) {
 </head>
 <body>
 <!--Header Nav Bar-->
-        <link rel="stylesheet" type="text/css" href="./assets/css/nav.css"></style>   
-  <header id="navbar">
-            <nav class="navbar-Acontainer Acontainer">
-              <div class="navbar-logo">
-                    <img src="./assets/images/logo.png">
-                  </div>
-              <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div id="navbar-menu" aria-labelledby="navbar-toggle">
-                <ul class="navbar-links">
-                  <li class="navbar-item"><a class="navbar-link" href="#" ><i class="fa fa-home"></i>Home</a></li>
-                  <li class="navbar-item"><a class="navbar-link" href="#"><i class="fa fa-folder"></i>Tools</a></li>
-                  <li class="navbar-item"><a class="navbar-link" href="#"><i class="fa fa-envelope-open-o"></i>Contact</a></li>
-                 
-                </ul>
-              </div>
-            </nav>
-  </header>
+<link rel="stylesheet" type="text/css" href="./assets/css/nav.css"></style>   
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
 <script src="./assets/js/nav.js"></script>
 <!--End Header Nav Bar-->
 
@@ -65,21 +52,15 @@ if (screen.width <= 699) {
 <br>
 <!--Translater-->
 <div class="row-d">
-  <div class="col-lg-8 col-xl-8">
-  <div class="main-col-content">
-  <div class="des-typing-wrapper">
-  <div class="des-typing-header">
-  <div class="box-title">
-  <h2 class="text-center ">Singlish to Sinhala Converter</h2>
-  </div>
-  <div class="des-typing-inner d-flex justify-content-between  align-items-center">
+
+<div class="main-col-content">
+<div class="des-typing-wrapper">
+<div class="des-typing-inner d-flex justify-content-between  align-items-center">
   <div class="d-flex align-items-center b-3m">
-  <div class="des-typing-type-icon">
-  <i class="fad fa-keyboard"></i>
-  </div>
-  <div class="">
-  <div class="dropdown show">
-  <a class="btn  dropdown-toggle des-typing-dropdown" role="button" id="des-typing-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+<div class="">
+  <div class="custom-dropdown show">
+  <a class="btn  dropdown-toggle des-typing-dropdown big" role="button" id="des-typing-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   සිංහල phonetic
   </a>
   <div class="dropdown-menu" aria-labelledby="des-typing-type">
@@ -149,6 +130,7 @@ if (screen.width <= 699) {
         set_typing_format('phonetic','සිංහල phonetic');
       });
 </script>
+
   
 <script src="assets/js/jquery/jquery.js"></script>
 <script src="assets/js/jquery/jquery-position.js"></script>
@@ -175,10 +157,10 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 <link rel="stylesheet" href="./assets/css/bootstrap/cookies.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
 
-
-
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <div class="container">
-    <div class="card" style="margin-top: 70px">
+    <div class="card">
      <div class="card-body">
          <div id="fillme"></div>
      </div>
