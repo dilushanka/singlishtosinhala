@@ -6,3 +6,7 @@ function updatemenu() {
     document.getElementById('menu').style.borderRadius = '10px';
   }
 }
+
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("http://sinhalaunicode.helalk.com/");
+}
