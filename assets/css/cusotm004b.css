@@ -166,27 +166,7 @@ textarea:focus {
 }
 
 
-@keyframes bounce {
-	0%,
-	50%,
-	100% {
-		transform: scale(1);
-		filter: blur(0px);
-	}
-	25% {
-		transform: scale(0.6);
-		filter: blur(3px);
-	}
-	75% {
-		filter: blur(3px);
-		transform: scale(1.4);
-	}
-}
 
-.sweet_alert_success {
-	width: 300px !important;
-	background-color: #42cc66 !important;
-}
 
 .sweet_alert_success .swal2-title {
 	font-size: 12px;

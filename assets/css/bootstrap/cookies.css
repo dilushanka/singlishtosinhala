@@ -2493,7 +2493,7 @@ fieldset:disabled a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
+    background-color: #d4d4d4;
     border-color: #28a745
 }
 
@@ -3287,7 +3287,7 @@ input[type=submit].btn-block {
 .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background-color: #6fe204
+    background-color: #0E8388
 }
 
 .dropdown-item.active,

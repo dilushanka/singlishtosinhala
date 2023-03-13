@@ -9,7 +9,7 @@ body {
 .row-d {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 400px;
     width: 100%; 
     padding: 50px; 
     transform: translate(-50%, -50%);
@@ -53,7 +53,7 @@ body {
 
 .des-typing-dropdown {
   all: unset;
-  background-color: dodgerblue;
+  background-color: #0E8388;
   color: white;
   width: 150px;
   padding: 10px;
@@ -66,13 +66,13 @@ body {
 }
 
 .nav-item {
-    color: rgb(255, 11, 11);
+    color: rgb(0, 0, 0);
 }
 #nav-unicode-tab {
-    background-color: #4ae905;
+    background-color: #0E8388;
 }
 #nav-legacy-tab {
-    background-color: #50504d;
+    background-color: #2E4F4F;
 }
 .nav-link.active {
     background-color: #243b55;
@@ -105,4 +105,9 @@ body {
     #results_legacy {
         width: 100%;
     }
+}
+h1 {
+    color: #b4da0c !important;
+    top: 250px !important;
+    text-align: center;
 }
