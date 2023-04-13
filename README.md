@@ -1,6 +1,8 @@
 # Singlish to Sinhala Unicode Converter
 Demo Here -- https://singlishtosinhala.helalk.com
 
+![Demo](/assets/images/demo.gif "demo website")
+
 ## Overview
 **Singlish to Sinhala Converter** is a web Project that allows users to Convertt singlish to sinhala and unicode sinhala. This application uses HTML, CSS and JavaScript.
 
