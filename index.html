@@ -70,7 +70,10 @@
     </div>
     </div>
     </div>
+<script>
+function handleShortcutKey(e,n){e.ctrlKey&&e.key===n.key&&(n.action(),e.preventDefault())}document.addEventListener("keydown",function(e){[{key:"1",action:()=>set_typing_format("phonetic","සිංහල phonetic")},{key:"2",action:()=>set_typing_format("wijesekara","සිංහල Wijesekara")},{key:"3",action:()=>set_typing_format("english","English")}].forEach(function(n){handleShortcutKey(e,n)})});
 
+</script>
     <div class="des-typing-body">
     <div class="des-typing-body-inner">
     <nav>
