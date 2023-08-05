@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "1_un_bindumathi";
+    src: url(../download_fonts/unicode/un-bindumathi.ttf);
+}
+.font_class_1_un_bindumathi {
+    font-family: "1_un_bindumathi", Ubuntu-R, sans-serif !important;
+}
+@font-face {
+    font-family: "2_un_emanee";
+    src: url("../fonts/1/un-emanee-no-eng.woff") format("woff");
+    src: url("../fonts/1/un-emanee-no-eng.eot") format("eot");
+}
+.font_class_2_un_emanee {
+    font-family: "2_un_emanee", Ubuntu-R, sans-serif !important;
+}
+@font-face {
+    font-family: "3_un_malithi";
+    src: url("../fonts/1/FM-Malithi.woff") format("woff");
+    src: url("../fonts/1/FM-Malithi.eot") format("eot");
+}
+.font_class_3_un_malithi {
+    font-family: "3_un_malithi", Ubuntu-R, sans-serif !important;
+}
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap");
 @font-face {
