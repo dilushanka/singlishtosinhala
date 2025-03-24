@@ -5,3 +5,4 @@ else if(environment=='production')
 else if(environment=='testing')
 {base_url="https://dev.bhasha.lk/helakuru/lk-dev-ci4/";index_url=base_url;images=base_url+'assets/images/'}
 var FILTERCALL="https://helakuru.lk/modules/dictionary/api/filter.php";var GETWORDCALL="https://helakuru.lk/modules/dictionary/api/read.php";
+

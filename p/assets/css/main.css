@@ -72,10 +72,6 @@
         margin-right: 0px;
         width: 214px;
     }
-    .des-typing-inner .d-flex > div{
-        position:relative;
-        left:-70px;
-       }
 }
 
 /* Style for the custom-dropdown container */
