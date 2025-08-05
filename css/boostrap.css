@@ -640,10 +640,12 @@ textarea.form-control {
 }
 .nav-tabs .nav-link {
     margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
-    background: #2D9596;
-    border: var(--bs-nav-tabs-border-width) solid transparent;
+    background: #ffffff;
     border-top-left-radius: var(--bs-nav-tabs-border-radius);
     border-top-right-radius: var(--bs-nav-tabs-border-radius);
+    border-style:dotted !important;
+    border-color:#9b9b9b !important;
+    border-width:3px !important;
 }
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
@@ -657,7 +659,7 @@ textarea.form-control {
 }
 .nav-tabs .nav-link.active {
     color: var(--bs-nav-tabs-link-active-color);
-    background-color: #ffffff;
+    background-color: #2D9596;
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 .tab-content > .tab-pane {
